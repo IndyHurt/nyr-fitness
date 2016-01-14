@@ -705,7 +705,7 @@ layers:
                # - label_placement: [yes]
         draw:
             icons:
-                size: [[13, 14px], [16, 16px], [19, 20px]]
+                size: [[13, 12px], [16, 16px], [19, 20px]]
                 sprite: fitness
                 interactive: true
                 order: 100
@@ -713,10 +713,12 @@ layers:
                 priority: 3
             text:
                 interactive: false
-                move_into_tile: true
+                move_into_tile: false
                 order: 101
                 priority: 4
                 visible: true
+                anchor: bottom
+                offset: [[13, [0, 6px]], [16, [0, 8px]], [19, [0, 10px]]] # offset tracks alongside icon size (half icon height)
                 text_source: function() { if( feature.name ) { return feature.name; } else { return 'Needs name'; } }
                 font:
                     family: Helvetica
