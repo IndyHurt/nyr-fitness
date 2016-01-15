@@ -8,7 +8,7 @@ New Year's Resolutions - Fitness POIs
 * Blog post - [index.html](index.html)
 * Small map for blog post - [map_fitness/embed.html](map_fitness/embed.html)
 * Big map - [map_fitness/index.html](map_fitness/index.html)
-* Scene file (powers the map) - [map_fitness/fitness.yaml](map_fitness/fitness.yaml#L697-L761)
+* Scene file (powers the map) - [map_fitness/fitness.yaml](map_fitness/fitness.yaml#L698-L747)
 * Map interactivity - [map_fitness/main.js](map/main.js)
 
 
