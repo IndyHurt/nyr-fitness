@@ -124,7 +124,7 @@ map = (function () {
                 popup.style.left = (pixel.x + 0) + 'px';
                 popup.style.top = (pixel.y + 0) + 'px';
                 
-                if ( (scene.selection.feature.properties.kind == 'fitness' || scene.selection.feature.properties.kind == 'gym') && !scene.selection.feature.properties.name ) 
+                if ( (scene.selection.feature.properties.kind == 'fitness' || scene.selection.feature.properties.kind == 'gym')  
                 {
 	                popup.style.visibility = 'visible';
 	            }
@@ -148,7 +148,7 @@ map = (function () {
         anchor.target = '_blank';
         anchor.textContent = label;
         anchor.addEventListener('click', function (event) {
-            trackOutboundLink(url, 'editing_residential_buildings', type);
+            trackOutboundLink(url, 'editing_fitness', type);
         }, false);
         el.appendChild(anchor);
         return el;
