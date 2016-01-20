@@ -719,7 +719,7 @@ layers:
                 visible: true
                 anchor: bottom
                 offset: [[13, [0, 6px]], [16, [0, 8px]], [19, [0, 10px]]] # offset tracks alongside icon size (half icon height)
-                text_source: function() { if( feature.name ) { return feature.name; } else { return 'Needs name'; } }
+                #text_source: function() { if( feature.name ) { return feature.name; } else { return 'Needs name'; } }
                 font:
                     family: Helvetica
                     weight: 500
