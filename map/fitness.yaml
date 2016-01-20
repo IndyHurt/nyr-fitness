@@ -724,9 +724,9 @@ layers:
                     family: Helvetica
                     weight: 500
                     style: italic
-                    fill: '#00ffff'
+                    fill: '#000000'
                     size: 12px
-                    stroke: { color: '#cdbbd7', width: 2 }
+                    stroke: { color: '#add8e6', width: 2 }
 
     fitness_to_enhance:
         data: { source: osm, layer: [buildings] }
