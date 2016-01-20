@@ -726,7 +726,7 @@ layers:
                     style: italic
                     fill: '#000000'
                     size: 12px
-                    stroke: { color: '#f0ffff', width: 2 }
+                    stroke: { color: '#bbffff', width: 2 }
 
     fitness_to_enhance:
         data: { source: osm, layer: [buildings] }
