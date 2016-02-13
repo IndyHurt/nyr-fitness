@@ -6,10 +6,10 @@ New Year's Resolutions - Fitness POIs
 ## Parts
 
 * Blog post - [index.html](index.html)
-* Small map for blog post - [map_fitness/embed.html](map_fitness/embed.html)
-* Big map - [map_fitness/index.html](map_fitness/index.html)
-* Scene file (powers the map) - [map_fitness/fitness.yaml](map_fitness/fitness.yaml#L698-L747)
-* Map interactivity - [map_fitness/main.js](map/main.js)
+* Small map for blog post - [map/embed.html](map_fitness/embed.html)
+* Big map - [map/index.html](map/index.html)
+* Scene file (powers the map) - [map/fitness.yaml](map/fitness.yaml#L698-L747)
+* Map interactivity - [map/main.js](map/main.js)
 
 
 ### To run locally:
